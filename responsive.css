@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1500px) {
+    header nav {
+        display: none;
+    }
+    header nav,
+    ._shortInfo,
+    #resume,
+    #generalSkills,
+    #projects {
+        margin: 50px 10px 0 10px !important;
+    }
+    .shortInfo .container .profileImg {
+        display: none !important;
+    }
+    .shortInfo .container .info h2 {
+        font-size: 18px !important;
+    }
+    .shortInfo .container .info .infoChild .left {
+        margin-right: 10px !important;
+    }
+    .shortInfo .container .info .infoChild .right h5 {
+        font-size: 16px !important;
+    }
+    #generalSkills .progressBar {
+        width: 300px !important;
+    }
+}
