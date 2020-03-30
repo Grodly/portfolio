@@ -149,6 +149,10 @@ header nav ul a:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.experience .education,
+.experience .employment {
     margin-top: 100px;
 }
 

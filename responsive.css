@@ -2,8 +2,10 @@
     header nav {
         display: none;
     }
-    header nav,
-    ._shortInfo,
+    ._shortInfo {
+        margin: 0 10px !important;
+        padding-bottom: 10px !important;
+    }
     #resume,
     #generalSkills,
     #projects {
@@ -20,6 +22,16 @@
     }
     .shortInfo .container .info .infoChild .right h5 {
         font-size: 16px !important;
+    }
+    .experience .education {
+        margin-top: 50px !important;
+    }
+    .experience .employment {
+        margin-top: 25px !important;
+    }
+    .experience .education h1,
+    .experience .employment h1 {
+        font-size: 30px;
     }
     #generalSkills .progressBar {
         width: 300px !important;
