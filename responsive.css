@@ -1,4 +1,10 @@
 @media only screen and (max-width: 1200px) {
+    .navbar {
+        display: inline-block !important;
+    }
+    .navbarDesktop {
+        display: none !important;
+    }
     header nav {
         display: none;
     }
