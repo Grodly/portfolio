@@ -265,6 +265,7 @@ header nav ul a:hover {
 
 #projects .container .card .left {
     width: 45%;
+    height: 100%;
 }
 
 #projects .container .card .left img {
@@ -302,6 +303,7 @@ header nav ul a:hover {
 
 #projects .container .card .right .info .right {
     color: #00a8cc;
+    margin: 0;
 }
 
 footer {
