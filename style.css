@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -32,19 +33,24 @@ header nav,
 ._shortInfo,
 #resume,
 #generalSkills,
-#projects {
+#projects,
+#activity {
     margin: 0 300px;
 }
 
 #resume h1,
 #generalSkills h1,
-#projects h1 {
+#projects h1,
+#activity h1,
+#activity h2 {
     color: #000839;
 }
 
 #resume,
 #generalSkills,
-#projects {
+#projects,
+#activity,
+footer {
     margin-top: 100px;
 }
 
@@ -279,7 +285,8 @@ header nav ul a:hover {
     transition: .3s;
 }
 
-#projects .container .card:hover {
+#projects .container .card:hover,
+#activity .cards .card:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -324,6 +331,47 @@ header nav ul a:hover {
 #projects .container .card .right .info .right {
     color: #00a8cc;
     margin: 0;
+}
+
+#activity .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#activity .cards .card {
+    width: 300px;
+    height: 460px;
+    margin: 15px;
+    text-align: center;
+    transition: .3s;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#activity .cards .card .top {
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+
+#activity .cards .card .top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#activity .cards .card .bottom {
+    width: 100%;
+    height: 40%;
+}
+
+#activity .cards .card .bottom p {
+    color: #005082;
+}
+
+#activity .cards .card .bottom h6 {
+    opacity: .7;
 }
 
 footer {
