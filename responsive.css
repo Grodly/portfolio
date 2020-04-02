@@ -58,4 +58,8 @@
         margin: 0 !important;
         width: 100% !important;
     }
+    #projects .container .card .left .links {
+        width: 100% !important;
+        height: 40% !important;
+    }
 }

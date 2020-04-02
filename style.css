@@ -290,7 +290,7 @@ header nav ul a:hover {
 
 #projects .container .card .left .links {
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     background: rgba(0, 0, 0, 0);
     display: flex;
     align-items: center;
