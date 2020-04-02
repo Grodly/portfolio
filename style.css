@@ -115,8 +115,11 @@ header nav ul a:hover {
 }
 
 .shortInfo .container .profileImg img {
+    padding-left: 10px;
+    padding-top: 25px;
     height: 100%;
     width: 100%;
+    transform: scale(2);
     background: #000;
     object-fit: cover;
 }
@@ -283,6 +286,33 @@ header nav ul a:hover {
     overflow: hidden;
     margin-bottom: 30px;
     transition: .3s;
+}
+
+#projects .container .card .left .links {
+    position: absolute;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 42%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px 0;
+    transform: scale(0);
+    transition: .5s;
+}
+
+#projects .container .card:hover .links {
+    transform: scale(1);
+    background: rgba(0, 0, 0, .3);
+}
+
+#projects .container .card .links a {
+    margin: 0 10px;
 }
 
 #projects .container .card:hover,
